@@ -1,4 +1,8 @@
 package com.springboot.movieRatingKotlin.model
 
-data class Movie {
-}
+import org.springframework.data.annotation.Id
+
+data class Movie(
+    @Id
+
+)
