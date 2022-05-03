@@ -4,5 +4,7 @@ import org.springframework.data.annotation.Id
 
 data class Movie(
     @Id
+    val id:Int,
+
 
 )
